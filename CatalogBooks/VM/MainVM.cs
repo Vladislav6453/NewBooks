@@ -69,7 +69,6 @@ public class MainVM : BaseVM
         }
     }
     
-    
     public MainVM()
     {
         
