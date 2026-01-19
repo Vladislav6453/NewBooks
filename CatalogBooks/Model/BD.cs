@@ -10,7 +10,7 @@ namespace CatalogBooks.Model;
 
 public class BD
 {
-    private List<Book> _books;
+    public List<Book> books;
     JsonSerializerOptions opt = new JsonSerializerOptions
     {
         DefaultIgnoreCondition =
@@ -25,7 +25,7 @@ public class BD
         {
             using (var fs = File.OpenRead("books.json"))
             {
-                _books = JsonSerializer.Deserialize<List<Book>>(fs, opt);
+                books = JsonSerializer.Deserialize<List<Book>>(fs, opt);
             }
         }
         catch (Exception e)

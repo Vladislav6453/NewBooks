@@ -1,12 +1,14 @@
 using System.Collections.ObjectModel;
 using System.Linq;
+using CatalogBooks.Model;
 
 namespace CatalogBooks.VM;
 
 public class MainVM : BaseVM
 {
+    private readonly BD _db;
     private ObservableCollection<BookVM> _filteredbooks;
-    private ObservableCollection<BookVM> _books;
+    private ObservableCollection<BookVM> _books => _db.books;
     private BookVM _selectedBook;
     private string _searchtext;
     private bool _isSearching;
