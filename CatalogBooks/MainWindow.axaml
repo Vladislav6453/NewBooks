@@ -20,7 +20,7 @@
         
         <StackPanel>
             <TextBox Text="{Binding SearchText, UpdateSourceTrigger=PropertyChanged}"/>
-            <ListBox ItemsSource="{Binding Books}" SelectedItem="{Binding SelectedBook}" />    
+            <ListBox ItemsSource="{Binding FilteredBooks}" SelectedItem="{Binding SelectedBook}" />    
         </StackPanel>
         
 </Window>

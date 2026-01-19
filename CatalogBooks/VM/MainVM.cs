@@ -1,4 +1,5 @@
 using System.Collections.ObjectModel;
+using System.Linq;
 
 namespace CatalogBooks.VM;
 
@@ -8,8 +9,9 @@ public class MainVM : BaseVM
     private ObservableCollection<BookVM> _books;
     private BookVM _selectedBook;
     private string _searchtext;
-    
-    public ObservableCollection<BookVM> FilterBooks
+    private bool _isSearching;
+
+    public ObservableCollection<BookVM> FilteredBooks
     {
         get => _filteredbooks;
         set
@@ -47,9 +49,48 @@ public class MainVM : BaseVM
         get => _searchtext;
         set
         {
-            if (Equals(value, _searchtext)) return;
-            _searchtext = value;
+            if (SearchText != value)
+            {
+                _searchtext = value;
+                OnPropertyChanged();
+                Filter();
+            }
+        }
+    }
+
+    public bool IsSearching
+    {
+        get => _isSearching;
+        set
+        {
+            if (value == _isSearching) return;
+            _isSearching = value;
             OnPropertyChanged();
         }
     }
+    
+    
+    public MainVM()
+    {
+        
+        
+         Filter();
+    }
+
+    private void Filter()
+    {
+        if (string.IsNullOrEmpty(SearchText))
+        {
+            FilteredBooks = new ObservableCollection<BookVM>(Books);
+            IsSearching =  false;
+        }
+        else
+        {
+            var SearchTextLower = SearchText.ToLower();
+            var Filtered = Books.Where(b=>b.Title.ToLower().Contains(SearchTextLower)).ToList();
+            FilteredBooks = new ObservableCollection<BookVM>(Filtered);
+            IsSearching = true;
+        }
+    }
 }
+

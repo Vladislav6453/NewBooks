@@ -1423,11 +1423,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Admin\\RiderProjects\\CatalogBooks\\CatalogBooks\\CatalogBooks.csproj",
+      "projectUniqueName": "C:\\Users\\Admin\\RiderProjects\\NewBooks\\CatalogBooks\\CatalogBooks.csproj",
       "projectName": "CatalogBooks",
-      "projectPath": "C:\\Users\\Admin\\RiderProjects\\CatalogBooks\\CatalogBooks\\CatalogBooks.csproj",
+      "projectPath": "C:\\Users\\Admin\\RiderProjects\\NewBooks\\CatalogBooks\\CatalogBooks.csproj",
       "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Admin\\RiderProjects\\CatalogBooks\\CatalogBooks\\obj\\",
+      "outputPath": "C:\\Users\\Admin\\RiderProjects\\NewBooks\\CatalogBooks\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -1442,6 +1442,7 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {

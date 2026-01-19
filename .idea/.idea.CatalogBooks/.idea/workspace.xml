@@ -1,5 +1,61 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="587ed6c2-ab83-42d5-9010-e00fa61219f7" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/CatalogBooks/Model/BD.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CatalogBooks/VM/RelayCommand.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.CatalogBooks/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.CatalogBooks/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CatalogBooks/CatalogBooks.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/CatalogBooks/CatalogBooks.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CatalogBooks/MainWindow.axaml" beforeDir="false" afterPath="$PROJECT_DIR$/CatalogBooks/MainWindow.axaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CatalogBooks/VM/MainVM.cs" beforeDir="false" afterPath="$PROJECT_DIR$/CatalogBooks/VM/MainVM.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CatalogBooks/obj/CatalogBooks.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/CatalogBooks/obj/CatalogBooks.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CatalogBooks/obj/Debug/net9.0/Avalonia/Resources.Inputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/CatalogBooks/obj/Debug/net9.0/Avalonia/Resources.Inputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CatalogBooks/obj/Debug/net9.0/CatalogBooks.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/CatalogBooks/obj/Debug/net9.0/CatalogBooks.AssemblyInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CatalogBooks/obj/Debug/net9.0/CatalogBooks.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/CatalogBooks/obj/Debug/net9.0/CatalogBooks.AssemblyInfoInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CatalogBooks/obj/Debug/net9.0/CatalogBooks.GeneratedMSBuildEditorConfig.editorconfig" beforeDir="false" afterPath="$PROJECT_DIR$/CatalogBooks/obj/Debug/net9.0/CatalogBooks.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CatalogBooks/obj/Debug/net9.0/CatalogBooks.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/CatalogBooks/obj/Debug/net9.0/CatalogBooks.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CatalogBooks/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/CatalogBooks/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CatalogBooks/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/CatalogBooks/obj/project.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CatalogBooks/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/CatalogBooks/obj/project.packagespec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CatalogBooks/obj/rider.project.model.nuget.info" beforeDir="false" afterPath="$PROJECT_DIR$/CatalogBooks/obj/rider.project.model.nuget.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CatalogBooks/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/CatalogBooks/obj/rider.project.restore.info" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/CatalogBooks/Model/BD.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/CatalogBooks/VM/RelayCommand.cs" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 2
+}]]></component>
+  <component name="ProjectId" id="38Si3Me56PL2YLJrtRYMOdcphxf" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "master",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
   <component name="RunManager">
     <configuration name="CatalogBooks" type="DotNetProject" factoryName=".NET Project">
       <option name="EXE_PATH" value="" />
@@ -25,4 +81,19 @@
       </method>
     </configuration>
   </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="587ed6c2-ab83-42d5-9010-e00fa61219f7" name="Changes" comment="" />
+      <created>1768799175508</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1768799175508</updated>
+      <workItem from="1768799176661" duration="3600000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
 </project>
