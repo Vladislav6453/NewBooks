@@ -4,24 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="587ed6c2-ab83-42d5-9010-e00fa61219f7" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/CatalogBooks/Model/BD.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CatalogBooks/VM/RelayCommand.cs" afterDir="false" />
+    <list default="true" id="587ed6c2-ab83-42d5-9010-e00fa61219f7" name="Changes" comment="f bfb">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.CatalogBooks/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.CatalogBooks/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CatalogBooks/CatalogBooks.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/CatalogBooks/CatalogBooks.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CatalogBooks/MainWindow.axaml" beforeDir="false" afterPath="$PROJECT_DIR$/CatalogBooks/MainWindow.axaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CatalogBooks/VM/MainVM.cs" beforeDir="false" afterPath="$PROJECT_DIR$/CatalogBooks/VM/MainVM.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CatalogBooks/obj/CatalogBooks.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/CatalogBooks/obj/CatalogBooks.csproj.nuget.dgspec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CatalogBooks/obj/Debug/net9.0/Avalonia/Resources.Inputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/CatalogBooks/obj/Debug/net9.0/Avalonia/Resources.Inputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CatalogBooks/obj/Debug/net9.0/CatalogBooks.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/CatalogBooks/obj/Debug/net9.0/CatalogBooks.AssemblyInfo.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CatalogBooks/obj/Debug/net9.0/CatalogBooks.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/CatalogBooks/obj/Debug/net9.0/CatalogBooks.AssemblyInfoInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CatalogBooks/obj/Debug/net9.0/CatalogBooks.GeneratedMSBuildEditorConfig.editorconfig" beforeDir="false" afterPath="$PROJECT_DIR$/CatalogBooks/obj/Debug/net9.0/CatalogBooks.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CatalogBooks/obj/Debug/net9.0/CatalogBooks.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/CatalogBooks/obj/Debug/net9.0/CatalogBooks.assets.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CatalogBooks/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/CatalogBooks/obj/project.assets.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CatalogBooks/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/CatalogBooks/obj/project.nuget.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CatalogBooks/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/CatalogBooks/obj/project.packagespec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CatalogBooks/obj/rider.project.model.nuget.info" beforeDir="false" afterPath="$PROJECT_DIR$/CatalogBooks/obj/rider.project.model.nuget.info" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CatalogBooks/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/CatalogBooks/obj/rider.project.restore.info" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,6 +19,7 @@
     <setting file="file://$PROJECT_DIR$/CatalogBooks/Model/BD.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/CatalogBooks/VM/RelayCommand.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
+  <component name="MetaFilesCheckinStateConfiguration" checkMetaFiles="true" />
   <component name="ProjectColorInfo"><![CDATA[{
   "associatedIndex": 2
 }]]></component>
@@ -88,12 +73,26 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1768799175508</updated>
-      <workItem from="1768799176661" duration="3600000" />
+      <workItem from="1768799176661" duration="3708000" />
     </task>
+    <task id="LOCAL-00001" summary="f bfb">
+      <option name="closed" value="true" />
+      <created>1768802859383</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1768802859383</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="UnityCheckinConfiguration" checkUnsavedScenes="true" />
   <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="f bfb" />
+    <option name="LAST_COMMIT_MESSAGE" value="f bfb" />
+  </component>
 </project>
