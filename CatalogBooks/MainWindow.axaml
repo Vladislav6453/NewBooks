@@ -1,0 +1,26 @@
+<Window xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:vm="clr-namespace:CatalogBooks.VM"
+        mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
+        x:Class="CatalogBooks.MainWindow"
+        Title="CatalogBooks"
+        x:DataType="vm:MainVM">
+        <Window.DataTemplates>
+                <DataTemplate DataType="vm:BookVM">
+                        <StackPanel>
+                                <Label Content="{Binding Isbn, StringFormat=Даже не знаю что это: {0}}"/>
+                                <Label Content="{Binding Title, StringFormat=Название: {0}}"/>
+                                <Label Content="{Binding Author, StringFormat=Автор: {0}}"/>
+                                <Label Content="{Binding Year, StringFormat=Год написания: {0:F2}}"/>
+                        </StackPanel>
+                </DataTemplate>
+        </Window.DataTemplates>
+        
+        <StackPanel>
+            <TextBox Text="{Binding SearchText, UpdateSourceTrigger=PropertyChanged}"/>
+            <ListBox ItemsSource="{Binding Books}" SelectedItem="{Binding SelectedBook}" />    
+        </StackPanel>
+        
+</Window>
